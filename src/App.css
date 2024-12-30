@@ -1,0 +1,10 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: Arial, sans-serif; /* Use a clean font */
+  background-color: #f4f4f4; /* Light background for contrast */
+  margin: 0;
+  padding: 20px; /* Add padding around the page */
+}

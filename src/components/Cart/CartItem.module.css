@@ -1,0 +1,84 @@
+.cartItemsCard {
+   width: 800px;
+   height: 170px;
+
+   border-radius: 10px;
+   margin: 0 10px 10px 0;
+   padding: 10px 16px;
+   display: flex;
+   font-family: Inter-Regular, "Helvetica Neue", Helvetica, Roboto, Arial,
+      sans-serif;
+}
+
+/* --------prodImage section-------- */
+.prodImage {
+   width: 150px;
+   height: 150px;
+   position: relative;
+   border-radius: 10px;
+   border: 1px solid rgb(234, 234, 234);
+}
+.prodImage img {
+   width: 150px;
+   height: 150px;
+   object-fit: cover;
+   border-radius: 8px;
+}
+
+/* --------product details section-------- */
+.prodDetails {
+   width: 650px;
+   height: 150px;
+   padding: 8px 15px;
+   border-radius: 10px;
+   position: relative;
+}
+.prodDelete {
+   font-size: 30px;
+   position: absolute;
+   right: 0;
+   top: 0;
+   border: 0;
+   background: transparent;
+}
+.productName {
+   font-size: 20px;
+   font-weight: 500;
+   line-height: 18px;
+}
+.prodQTY {
+   margin: 15px;
+   font-size: 18px;
+   font-weight: bold;
+   display: flex;
+   align-items: baseline;
+   gap: 7px;
+}
+.qty {
+   font-weight: 200;
+   font-size: 14px;
+   color: #999;
+}
+.btn {
+   font-size: 18px;
+   font-weight: bold;
+   width: 25px;
+   height: 25px;
+   border-radius: 5px;
+   border: 1px solid rgb(215, 213, 213);
+   background-color: transparent;
+}
+.price {
+   margin: 12px 0;
+}
+
+.originalPrice {
+   text-decoration: line-through;
+
+   color: #999;
+}
+.discountedPrice {
+   font-weight: bold;
+   font-size: 20px; /* Larger font size for discounted price */
+   margin-right: 10px; /* Spacing to the right */
+}
