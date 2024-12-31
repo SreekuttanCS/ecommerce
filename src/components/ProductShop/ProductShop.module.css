@@ -1,114 +1,114 @@
 .cardContainer {
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: space-around;
-   margin: 0 -8px;
-   padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0 -8px;
+  padding: 20px;
 }
 
 .individualCard {
-   display: flex;
-   flex-direction: column; /* Stack elements vertically */
-   justify-content: space-between; /* Space out elements */
-   height: 100%; /* Full height for consistent card size */
-   border: 1px solid #e0e0e0; /* Light border for separation */
-   border-radius: 8px; /* Rounded corners */
-   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-   overflow: hidden; /* Hide overflow content */
-   transition: transform 0.2s; /* Smooth scaling on hover */
-   background-color: #fff; /* White background for cards */
-   margin: 8px; /* Margin between cards */
-   width: 250px; /* Fixed width for cards */
-   text-align: center;
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  justify-content: space-between; /* Space out elements */
+  height: 100%; /* Full height for consistent card size */
+  border: 1px solid #e0e0e0; /* Light border for separation */
+  border-radius: 8px; /* Rounded corners */
+
+  overflow: hidden; /* Hide overflow content */
+  transition: transform 0.2s; /* Smooth scaling on hover */
+  background-color: #fff; /* White background for cards */
+  margin: 8px; /* Margin between cards */
+  width: 250px; /* Fixed width for cards */
+  text-align: center;
 }
 
 .individualCard:hover {
-   transform: scale(1.05);
+  transform: scale(1.05);
 }
 .Heading {
-   font-size: 2em; /* Larger font size for prominence */
-   font-weight: bold; /* Bold text for emphasis */
-   color: #333; /* Dark color for good contrast */
-   margin: 20px 0; /* Margin above and below the heading */
-   text-align: left; /* Left-align the heading text */
-   text-transform: uppercase; /* Uppercase letters for a strong look */
-   letter-spacing: 1px; /* Slightly increase spacing between letters */
-   padding-bottom: 10px; /* Padding below the text */
-   padding-left: 30px;
-   transition: color 0.3s; /* Smooth color transition on hover */
+  font-size: 2em; /* Larger font size for prominence */
+  font-weight: bold; /* Bold text for emphasis */
+  color: #333; /* Dark color for good contrast */
+  margin: 20px 0; /* Margin above and below the heading */
+  text-align: left; /* Left-align the heading text */
+  text-transform: uppercase; /* Uppercase letters for a strong look */
+  letter-spacing: 1px; /* Slightly increase spacing between letters */
+  padding-bottom: 10px; /* Padding below the text */
+  padding-left: 30px;
+  transition: color 0.3s; /* Smooth color transition on hover */
 }
 
 .Heading:hover {
-   color: #2455f4; /* Change color on hover for interactivity */
+  color: #2455f4; /* Change color on hover for interactivity */
 }
 .productName {
-   margin: 8px 0; /* Margin around product name */
-   font-size: 1.2em; /* Larger font size */
-   font-weight: bold; /* Bold text */
-   color: #333; /* Dark text color */
-   max-height: 40px; /* Limit height */
-   overflow: hidden; /* Hide overflow */
-   text-overflow: ellipsis; /* Ellipsis for overflow text */
-   white-space: nowrap;
-   padding-left: 10px;
+  margin: 8px 0; /* Margin around product name */
+  font-size: 1.2em; /* Larger font size */
+  font-weight: bold; /* Bold text */
+  color: #333; /* Dark text color */
+  max-height: 40px; /* Limit height */
+  overflow: hidden; /* Hide overflow */
+  text-overflow: ellipsis; /* Ellipsis for overflow text */
+  white-space: nowrap;
+  padding-left: 10px;
 }
 .productName:hover {
-   color: #2455f4;
+  color: #2455f4;
 }
 .rating {
-   position: absolute;
-   bottom: 20px;
-   right: 10px;
-   font-size: 1em;
-   color: black;
-   padding: 5px;
-   border-radius: 10px;
-   margin-inline: 10px;
-   background-color: white;
+  position: absolute;
+  bottom: 20px;
+  right: 10px;
+  font-size: 1em;
+  color: black;
+  padding: 5px;
+  border-radius: 10px;
+  margin-inline: 10px;
+  background-color: white;
 }
 .prodImage {
-   position: relative;
+  position: relative;
 }
 .prodImage img {
-   width: 200px;
-   height: 200px;
-   object-fit: cover;
-   border-radius: 8px;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
 }
 .price {
-   margin: 12px 0;
+  margin: 12px 0;
 }
 
 .originalPrice {
-   text-decoration: line-through;
-   color: #999;
+  text-decoration: line-through;
+  color: #999;
 }
 .discountedPrice {
-   font-size: 1.5em; /* Larger font size for discounted price */
-   color: #e91e63; /* Pink color for discounted price */
-   margin-right: 10px; /* Spacing to the right */
+  font-size: 1.5em; /* Larger font size for discounted price */
+  color: #e91e63; /* Pink color for discounted price */
+  margin-right: 10px; /* Spacing to the right */
 }
 .addCart {
-   margin-top: auto;
-   background-color: #4caf50; /* Green background for add to cart */
-   color: white; /* White text color */
-   border: none; /* No border */
-   border-radius: 4px; /* Rounded corners */
-   padding: 8px 12px; /* Padding for button */
-   cursor: pointer; /* Pointer cursor on hover */
-   transition: background-color 0.3s; /* Smooth background color transition */
+  margin-top: auto;
+  background-color: #4caf50; /* Green background for add to cart */
+  color: white; /* White text color */
+  border: none; /* No border */
+  border-radius: 4px; /* Rounded corners */
+  padding: 8px 12px; /* Padding for button */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth background color transition */
 }
 
 .addCart:hover {
-   background-color: #45a049; /* Darker green on hover */
+  background-color: #45a049; /* Darker green on hover */
 }
 .removeCart {
-   background: red;
-   color: white;
-   border: none;
-   border-radius: 10px;
-   padding: 0.5rem;
+  background: red;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 0.5rem;
 }
 .Heading {
-   display: block;
+  display: block;
 }
