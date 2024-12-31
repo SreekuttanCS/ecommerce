@@ -1,40 +1,44 @@
-CartTotalCard {
-  margin-top: 12px;
-  width: 20%;
-  height: fit-content;
-  border: 1px solid rgb(238, 238, 238);
-  border-radius: 10px;
-  padding: 10px;
+.main {
+   display: flex;
+   flex-direction: column;
+}
+.CartTotalCard {
+   margin-top: 12px;
+   width: 400px;
+   height: fit-content;
+   border: 1px solid rgb(238, 238, 238);
+   border-radius: 10px;
+   padding: 10px;
 }
 .PriceDetails {
-  width: 100%;
-  height: fit-content;
+   width: 100%;
+   height: fit-content;
 }
 .TotalPrice,
 .TotalDiscount,
 .TotalPayable {
-  font-size: 18px;
-  display: flex;
-  justify-content: space-between;
-  margin: 16px;
+   font-size: 18px;
+   display: flex;
+   justify-content: space-between;
+   margin: 16px;
 }
 .TotalPayable {
-  margin: 20px;
-  font-weight: bold;
-  font-size: 20px !important;
+   margin: 20px;
+   font-weight: bold;
+   font-size: 20px !important;
 }
 .btn {
-  font-size: 15px;
-  font-weight: bold;
-  padding: 14px 16px;
-  width: 100%;
-  margin: 8px 0;
-  margin-bottom: 20px;
-  font-size: 20px;
-  border: 1px solid #a294f9;
-  border-radius: 5px;
-  color: RED;
+   font-size: 15px;
+   font-weight: bold;
+   padding: 14px 16px;
+   width: 100%;
+   margin: 8px 0;
+   margin-bottom: 20px;
+   font-size: 20px;
+   border: 1px solid #a294f9;
+   border-radius: 5px;
+   color: RED;
 }
 .btn:hover {
-  background-color: #a294f9;
+   background-color: #a294f9;
 }
