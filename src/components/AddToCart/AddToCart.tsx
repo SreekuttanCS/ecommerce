@@ -8,10 +8,9 @@ const AddToCart = () => {
     <>
       <div className={styles.CartSection}>
         <div className="ProductCart">
-          <h2>Shopping Cart</h2>
+          <h2 className={styles.Heading}>Shopping Cart</h2>
           <div>
             <CartItem />
-
             <CartTotal />
           </div>
         </div>
