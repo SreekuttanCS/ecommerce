@@ -30,7 +30,7 @@ h2 {
   width: 50%;
 }
 .bannerButton {
-  background-color: #ff6347;
+  background-color: #0d76e6;
   color: white;
   border: none;
   border-radius: 5px;
@@ -41,5 +41,5 @@ h2 {
 }
 
 .bannerButton:hover {
-  background-color: #ff4500;
+  background-color: #0d76e6;
 }
