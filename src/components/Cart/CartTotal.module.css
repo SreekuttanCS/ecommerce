@@ -1,6 +1,10 @@
+.main {
+  display: flex;
+  flex-direction: column;
+}
 .CartTotalCard {
   margin-top: 12px;
-  width: 50%;
+  width: 400px;
   height: fit-content;
   border: 1px solid rgb(238, 238, 238);
   border-radius: 10px;
