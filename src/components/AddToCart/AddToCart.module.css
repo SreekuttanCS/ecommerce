@@ -44,3 +44,14 @@ p {
    display: flex;
    justify-content: space-between;
 }
+.Heading {
+  font-size: 2em; /* Larger font size for prominence */
+  font-weight: bold; /* Bold text for emphasis */
+  color: #333; /* Dark color for good contrast */
+  margin: 20px 0; /* Margin above and below the heading */
+  text-align: left; /* Left-align the heading text */
+  text-transform: uppercase; /* Uppercase letters for a strong look */
+  letter-spacing: 1px; /* Slightly increase spacing between letters */
+  padding-bottom: 10px; /* Padding below the text */
+  transition: color 0.3s; /* Smooth color transition on hover */
+}
