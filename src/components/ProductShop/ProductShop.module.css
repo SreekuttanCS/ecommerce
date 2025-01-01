@@ -11,9 +11,7 @@
   flex-direction: column; /* Stack elements vertically */
   justify-content: space-between; /* Space out elements */
   height: 100%; /* Full height for consistent card size */
-  border: 1px solid #e0e0e0; /* Light border for separation */
   border-radius: 8px; /* Rounded corners */
-
   overflow: hidden; /* Hide overflow content */
   transition: transform 0.2s; /* Smooth scaling on hover */
   background-color: #fff; /* White background for cards */
