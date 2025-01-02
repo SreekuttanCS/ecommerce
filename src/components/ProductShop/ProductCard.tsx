@@ -4,9 +4,10 @@ import { IoIosStar } from "react-icons/io";
 import styles from "./ProductShop.module.css";
 
 const ProductCard = ({ prev }) => {
+
    return (
       <>
-         <div className={styles.individualCard}>
+         <div className={styles.individualCard} >
             <div className={styles.prodImage}>
                <img src={prev.image} alt="" />
                <span className={styles.rating}>

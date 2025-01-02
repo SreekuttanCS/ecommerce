@@ -6,7 +6,7 @@ export type Price = {
 
 // Define a Product type
 export interface Product {
-  id: number;
+  id: string;
   name: string;
   image: string;
   price: Price;
