@@ -12,6 +12,17 @@ export const fitnessEquipment: Product[] = [
       rating: 4.5,
       reviews: 220,
       category: "Fitness Equipment",
+      description:
+         "Enhance your workouts with the FitPro Resistance Bands Set, featuring multiple resistance levels for strength training, yoga, and rehabilitation exercises. Durable and portable, perfect for home and travel use.",
+      specifications: {
+         item_weight: "750g",
+         color: ["Red", "Blue", "Green", "Yellow", "Black"],
+         material: "Natural Latex",
+         product_dimensions: "Bands Length: 120cm each",
+         pattern: "Plain",
+         size: ["Light", "Medium", "Heavy", "X-Heavy", "XX-Heavy"],
+      },
+      brand: "FitPro",
    },
    {
       id: 2,
@@ -24,6 +35,17 @@ export const fitnessEquipment: Product[] = [
       rating: 4.7,
       reviews: 315,
       category: "Fitness Equipment",
+      description:
+         "Enhance your workouts with the FitPro Resistance Bands Set, featuring multiple resistance levels for strength training, yoga, and rehabilitation exercises. Durable and portable, perfect for home and travel use.",
+      specifications: {
+         item_weight: "750g",
+         color: ["Red", "Blue", "Green", "Yellow", "Black"],
+         material: "Natural Latex",
+         product_dimensions: "Bands Length: 120cm each",
+         pattern: "Plain",
+         size: ["Light", "Medium", "Heavy", "X-Heavy", "XX-Heavy"],
+      },
+      brand: "FitPro",
    },
    {
       id: 3,
@@ -36,6 +58,17 @@ export const fitnessEquipment: Product[] = [
       rating: 4.4,
       reviews: 190,
       category: "Fitness Equipment",
+      description:
+         "Enhance your workouts with the FitPro Resistance Bands Set, featuring multiple resistance levels for strength training, yoga, and rehabilitation exercises. Durable and portable, perfect for home and travel use.",
+      specifications: {
+         item_weight: "750g",
+         color: ["Red", "Blue", "Green", "Yellow", "Black"],
+         material: "Natural Latex",
+         product_dimensions: "Bands Length: 120cm each",
+         pattern: "Plain",
+         size: ["Light", "Medium", "Heavy", "X-Heavy", "XX-Heavy"],
+      },
+      brand: "FitPro",
    },
    {
       id: 4,
@@ -48,6 +81,17 @@ export const fitnessEquipment: Product[] = [
       rating: 4.6,
       reviews: 275,
       category: "Fitness Equipment",
+      description:
+         "Enhance your workouts with the FitPro Resistance Bands Set, featuring multiple resistance levels for strength training, yoga, and rehabilitation exercises. Durable and portable, perfect for home and travel use.",
+      specifications: {
+         item_weight: "750g",
+         color: ["Red", "Blue", "Green", "Yellow", "Black"],
+         material: "Natural Latex",
+         product_dimensions: "Bands Length: 120cm each",
+         pattern: "Plain",
+         size: ["Light", "Medium", "Heavy", "X-Heavy", "XX-Heavy"],
+      },
+      brand: "FitPro",
    },
    {
       id: 5,
@@ -60,6 +104,17 @@ export const fitnessEquipment: Product[] = [
       rating: 4.5,
       reviews: 185,
       category: "Fitness Equipment",
+      description:
+         "Enhance your workouts with the FitPro Resistance Bands Set, featuring multiple resistance levels for strength training, yoga, and rehabilitation exercises. Durable and portable, perfect for home and travel use.",
+      specifications: {
+         item_weight: "750g",
+         color: ["Red", "Blue", "Green", "Yellow", "Black"],
+         material: "Natural Latex",
+         product_dimensions: "Bands Length: 120cm each",
+         pattern: "Plain",
+         size: ["Light", "Medium", "Heavy", "X-Heavy", "XX-Heavy"],
+      },
+      brand: "FitPro",
    },
    // {
    //   id: 6,

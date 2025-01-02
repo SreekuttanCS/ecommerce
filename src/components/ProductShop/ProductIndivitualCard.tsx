@@ -38,6 +38,7 @@ const ProductIndivitualCard = () => {
                   <div>Size</div>
                   <div className={styles.ProductSizeCards}>
                      <button className={styles.ProductSizeCard}>S</button>
+                     <button className={styles.ProductSizeCard}>M</button>
                      <button className={styles.ProductSizeCard}>L</button>
                      <button className={styles.ProductSizeCard}>XL</button>
                      <button className={styles.ProductSizeCard}>XXL</button>

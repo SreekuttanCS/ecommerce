@@ -11,6 +11,17 @@ export const clothingProducts: Product[] = [
       rating: 4.5,
       reviews: 150,
       category: "Clothing",
+      description:
+         "Stay stylish and comfortable with UrbanFit's full-zip hoodie, crafted from premium cotton-blend fabric. Perfect for workouts, casual outings, or lounging at home.",
+      specifications: {
+         color: ["Black", "Navy Blue", "Grey"],
+         material: "Cotton Blend",
+         product_dimensions: "L x W x H: 40cm x 30cm x 2cm",
+         pattern: "Solid",
+         sleeve: "Full Sleeve",
+         size: ["S", "M", "L", "XL", "XXL"],
+      },
+      brand: "UrbanFit",
    },
    {
       id: 2,
@@ -23,6 +34,17 @@ export const clothingProducts: Product[] = [
       rating: 4.7,
       reviews: 220,
       category: "Clothing",
+      description:
+         "Stay stylish and comfortable with UrbanFit's full-zip hoodie, crafted from premium cotton-blend fabric. Perfect for workouts, casual outings, or lounging at home.",
+      specifications: {
+         color: ["Black", "Navy Blue", "Grey"],
+         material: "Cotton Blend",
+         product_dimensions: "L x W x H: 40cm x 30cm x 2cm",
+         pattern: "Solid",
+         sleeve: "Full Sleeve",
+         size: ["S", "M", "L", "XL", "XXL"],
+      },
+      brand: "UrbanFit",
    },
    {
       id: 3,
@@ -35,6 +57,17 @@ export const clothingProducts: Product[] = [
       rating: 4.6,
       reviews: 180,
       category: "Clothing",
+      description:
+         "Stay stylish and comfortable with UrbanFit's full-zip hoodie, crafted from premium cotton-blend fabric. Perfect for workouts, casual outings, or lounging at home.",
+      specifications: {
+         color: ["Black", "Navy Blue", "Grey"],
+         material: "Cotton Blend",
+         product_dimensions: "L x W x H: 40cm x 30cm x 2cm",
+         pattern: "Solid",
+         sleeve: "Full Sleeve",
+         size: ["S", "M", "L", "XL", "XXL"],
+      },
+      brand: "UrbanFit",
    },
    {
       id: 4,
@@ -47,6 +80,17 @@ export const clothingProducts: Product[] = [
       rating: 4.4,
       reviews: 140,
       category: "Clothing",
+      description:
+         "Stay stylish and comfortable with UrbanFit's full-zip hoodie, crafted from premium cotton-blend fabric. Perfect for workouts, casual outings, or lounging at home.",
+      specifications: {
+         color: ["Black", "Navy Blue", "Grey"],
+         material: "Cotton Blend",
+         product_dimensions: "L x W x H: 40cm x 30cm x 2cm",
+         pattern: "Solid",
+         sleeve: "Full Sleeve",
+         size: ["S", "M", "L", "XL", "XXL"],
+      },
+      brand: "UrbanFit",
    },
    {
       id: 5,
@@ -59,6 +103,17 @@ export const clothingProducts: Product[] = [
       rating: 4.5,
       reviews: 200,
       category: "Clothing",
+      description:
+         "Stay stylish and comfortable with UrbanFit's full-zip hoodie, crafted from premium cotton-blend fabric. Perfect for workouts, casual outings, or lounging at home.",
+      specifications: {
+         color: ["Black", "Navy Blue", "Grey"],
+         material: "Cotton Blend",
+         product_dimensions: "L x W x H: 40cm x 30cm x 2cm",
+         pattern: "Solid",
+         sleeve: "Full Sleeve",
+         size: ["S", "M", "L", "XL", "XXL"],
+      },
+      brand: "UrbanFit",
    },
    // {
    //   id: 6,
