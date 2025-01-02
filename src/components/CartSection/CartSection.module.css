@@ -1,0 +1,57 @@
+.CartSection {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+}
+.EmptyCart {
+  width: 230px;
+  height: 230px;
+  border-radius: 50%;
+  background: rgb(243, 235, 255);
+  border: rgba(150, 136, 208, 1) 51%;
+  margin-bottom: 50px;
+}
+h3 {
+  margin-bottom: 10px;
+}
+p {
+  margin-bottom: 20px;
+  padding-left: 5px;
+  text-align: center;
+  color: rgb(168, 168, 168);
+  font-size: 17px;
+  margin-top: -4px;
+}
+.btn {
+  font-size: 15px;
+  font-weight: bold;
+  padding: 14px 16px;
+  width: 430px;
+  margin: 8px 0;
+  margin-bottom: 20px;
+  font-size: 20px;
+  border: 1px solid #a294f9;
+  border-radius: 5px;
+}
+.btn:hover {
+  background-color: #a294f9;
+}
+.cartDiv {
+  display: flex;
+  justify-content: space-between;
+}
+.Heading {
+  font-size: 2em; /* Larger font size for prominence */
+  font-weight: bold; /* Bold text for emphasis */
+  color: #333; /* Dark color for good contrast */
+  margin: 20px 0; /* Margin above and below the heading */
+  text-align: left; /* Left-align the heading text */
+  text-transform: uppercase; /* Uppercase letters for a strong look */
+  letter-spacing: 1px; /* Slightly increase spacing between letters */
+  padding-bottom: 10px; /* Padding below the text */
+  transition: color 0.3s; /* Smooth color transition on hover */
+}

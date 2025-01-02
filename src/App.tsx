@@ -1,17 +1,20 @@
 import React from "react";
-import Banner from "./components/BannerShop/Banner";
 import NavBarShop from "./components/NavBarShop/NavBarShop";
-import ProductShop from "./components/ProductShop/ProductShop";
-import AddToCart from "./components/AddToCart/AddToCart";
+import Home from "./components/Home";
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import CartSection from "./components/CartSection/CartSection";
 
 const App = () => {
   return (
-    <div>
-      <NavBarShop />
-      <Banner />
-      <ProductShop />
-      <AddToCart />
-    </div>
+    <Router>
+      <div>
+        <NavBarShop />
+        <Routes>
+          <Route path="/" element={<Home />}></Route>
+          <Route path="/cart" element={<CartSection />}></Route>
+        </Routes>
+      </div>
+    </Router>
   );
 };
 
