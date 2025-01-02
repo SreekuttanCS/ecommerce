@@ -15,13 +15,13 @@ export interface Product {
   reviews: number;
   description: string;
   specifications: {
+    item_weight?: string;
     color: string[];
-    fabric?: string;
+    material: string;
+    product_dimensions?: string;
     pattern?: string;
-    neck?: string;
     sleeve?: string;
     size?: string[];
   };
-  featuers: string[];
   brand: string;
 }
