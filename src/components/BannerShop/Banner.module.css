@@ -1,45 +1,45 @@
 .bannerSection {
-  background-image: url("/src/assets/banner.jpg");
-  background-size: cover;
-  height: ;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: black;
-  text-align: center;
-  padding: 20px;
+   background-image: url("/src/assets/banner.jpg");
+   background-size: cover;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: black;
+   text-align: center;
+   padding: 20px;
 }
 
 .BannerContent {
-  border-radius: 10px;
-  padding: 30px;
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  text-align: center !important;
+   border-radius: 10px;
+   padding: 30px;
+   display: flex;
+   flex-direction: column;
+   align-items: start;
+   text-align: center !important;
 }
 
 h2 {
-  font-size: 2.5rem;
-  margin: 10px 0;
+   font-size: 2.5rem;
+   margin: 10px 0;
 }
 
 .p {
-  font-size: 1.2rem;
+   font-size: 1.2rem;
 
-  width: 50%;
+   width: 50%;
 }
 .bannerButton {
-  background-color: #0d76e6;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  padding: 10px 20px;
-  font-size: 1rem;
-  cursor: pointer;
-  transition: background-color 0.3s;
+   background-color: #7f29bc;
+   color: white;
+   border: none;
+   border-radius: 5px;
+   padding: 10px 20px;
+   font-size: 1rem;
+   cursor: pointer;
+   transition: background-color 0.3s;
 }
 
 .bannerButton:hover {
-  background-color: #95c4f6;
+   background-color: #7f29bc;
 }
