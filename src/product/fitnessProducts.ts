@@ -99,7 +99,7 @@ export const fitnessEquipment: Product[] = [
       image: "https://m.media-amazon.com/images/I/41Wys7e-12L._SX300_SY300_QL70_FMwebp_.jpg",
       price: {
          original: 14999,
-         discounted: 12999,
+         discounted: 129999,
       },
       rating: 4.5,
       reviews: 185,
