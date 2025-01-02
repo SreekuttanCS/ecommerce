@@ -6,13 +6,13 @@ import "./ProductShop.module.css";
 import ProductIndivitualCard from "./ProductIndivitualCard";
 
 const ProductShop = () => {
-   return (
-      <>
-         <ProductCategory title="Clothing" products={clothingProducts} />
-         <ProductCategory title="Fitness" products={fitnessEquipment} />
-         <ProductIndivitualCard />
-      </>
-   );
+  return (
+    <>
+      <ProductCategory title="Clothing" products={clothingProducts} />
+      <ProductCategory title="Fitness" products={fitnessEquipment} />
+      {/* <ProductIndivitualCard /> */}
+    </>
+  );
 };
 
 export default ProductShop;
