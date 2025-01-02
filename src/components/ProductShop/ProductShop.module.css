@@ -1,112 +1,236 @@
 .cardContainer {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  /* margin: 0 8px; */
-  padding: 20px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   /* margin: 0 8px; */
+   padding: 20px;
 }
 
 .individualCard {
-  display: flex;
-  flex-direction: column; /* Stack elements vertically */
-  justify-content: space-between; /* Space out elements */
-  height: 100%; /* Full height for consistent card size */
-  border-radius: 8px; /* Rounded corners */
-  overflow: hidden; /* Hide overflow content */
-  transition: transform 0.2s; /* Smooth scaling on hover */
-  background-color: #fff; /* White background for cards */
-  margin: 8px; /* Margin between cards */
-  width: 250px; /* Fixed width for cards */
-  text-align: center;
+   display: flex;
+   flex-direction: column; /* Stack elements vertically */
+   justify-content: space-between; /* Space out elements */
+   height: 100%; /* Full height for consistent card size */
+   border-radius: 8px; /* Rounded corners */
+   overflow: hidden; /* Hide overflow content */
+   transition: transform 0.2s; /* Smooth scaling on hover */
+   background-color: #fff; /* White background for cards */
+   margin: 8px; /* Margin between cards */
+   width: 250px; /* Fixed width for cards */
+   text-align: center;
 }
 
 .individualCard:hover {
-  transform: scale(1.05);
+   transform: scale(1.05);
 }
 .Heading {
-  font-size: 2em; /* Larger font size for prominence */
-  font-weight: bold; /* Bold text for emphasis */
-  color: #333; /* Dark color for good contrast */
-  margin: 20px 0; /* Margin above and below the heading */
-  text-align: left; /* Left-align the heading text */
-  text-transform: uppercase; /* Uppercase letters for a strong look */
-  letter-spacing: 1px; /* Slightly increase spacing between letters */
-  padding-bottom: 10px; /* Padding below the text */
-  padding-left: 30px;
-  transition: color 0.3s; /* Smooth color transition on hover */
+   font-size: 2em; /* Larger font size for prominence */
+   font-weight: bold; /* Bold text for emphasis */
+   color: #333; /* Dark color for good contrast */
+   margin: 20px 0; /* Margin above and below the heading */
+   text-align: left; /* Left-align the heading text */
+   text-transform: uppercase; /* Uppercase letters for a strong look */
+   letter-spacing: 1px; /* Slightly increase spacing between letters */
+   padding-bottom: 10px; /* Padding below the text */
+   padding-left: 30px;
+   transition: color 0.3s; /* Smooth color transition on hover */
 }
 
 .Heading:hover {
-  color: #2455f4; /* Change color on hover for interactivity */
+   color: #7f29bc; /* Change color on hover for interactivity */
 }
 .productName {
-  margin: 8px 0; /* Margin around product name */
-  font-size: 1.2em; /* Larger font size */
-  font-weight: bold; /* Bold text */
-  color: #333; /* Dark text color */
-  max-height: 40px; /* Limit height */
-  overflow: hidden; /* Hide overflow */
-  text-overflow: ellipsis; /* Ellipsis for overflow text */
-  white-space: nowrap;
-  padding-left: 10px;
+   margin: 8px 0; /* Margin around product name */
+   font-size: 1.2em; /* Larger font size */
+   font-weight: bold; /* Bold text */
+   color: #333; /* Dark text color */
+   max-height: 40px; /* Limit height */
+   overflow: hidden; /* Hide overflow */
+   text-overflow: ellipsis; /* Ellipsis for overflow text */
+   white-space: nowrap;
+   padding-left: 10px;
+   width: 100%;
 }
 .productName:hover {
-  color: #2455f4;
+   color: #7f29bc;
 }
 .rating {
-  position: absolute;
-  bottom: 20px;
-  right: 10px;
-  font-size: 1em;
-  color: black;
-  padding: 5px;
-  border-radius: 10px;
-  margin-inline: 10px;
-  background-color: white;
+   position: absolute;
+   bottom: 20px;
+   right: 10px;
+   font-size: 1em;
+   color: black;
+   padding: 5px;
+   border-radius: 10px;
+   margin-inline: 10px;
+   background-color: white;
+}
+.rating:hover {
+   background-color: #7f29aa;
+   color: #ffffff;
 }
 .prodImage {
-  position: relative;
+   position: relative;
 }
 .prodImage img {
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
-  border-radius: 8px;
+   width: 200px;
+   height: 200px;
+   object-fit: cover;
+   border-radius: 8px;
 }
 .price {
-  margin: 12px 0;
+   margin: 12px 0;
 }
 
 .originalPrice {
-  text-decoration: line-through;
-  color: #999;
+   text-decoration: line-through;
+   color: #999;
 }
 .discountedPrice {
-  font-size: 1.5em; /* Larger font size for discounted price */
-  color: #e91e63; /* Pink color for discounted price */
-  margin-right: 10px; /* Spacing to the right */
+   font-size: 1.5em; /* Larger font size for discounted price */
+   color: #e91e63; /* Pink color for discounted price */
+   margin-right: 10px; /* Spacing to the right */
 }
 .addCart {
-  margin-top: auto;
-  background-color: #4caf50; /* Green background for add to cart */
-  color: white; /* White text color */
-  border: none; /* No border */
-  border-radius: 4px; /* Rounded corners */
-  padding: 8px 12px; /* Padding for button */
-  cursor: pointer; /* Pointer cursor on hover */
-  transition: background-color 0.3s; /* Smooth background color transition */
+   margin-top: auto;
+   background-color: #7f29bc; /* Green background for add to cart */
+   color: white; /* White text color */
+   border: none; /* No border */
+   border-radius: 4px; /* Rounded corners */
+   padding: 8px 12px; /* Padding for button */
+   cursor: pointer; /* Pointer cursor on hover */
+   transition: background-color 0.3s; /* Smooth background color transition */
 }
 
 .addCart:hover {
-  background-color: #45a049; /* Darker green on hover */
+   background-color: #7f18bb; /* Darker green on hover */
 }
 .removeCart {
-  background: red;
-  color: white;
-  border: none;
-  border-radius: 10px;
-  padding: 0.5rem;
+   background: red;
+   color: white;
+   border: none;
+   border-radius: 10px;
+   padding: 0.5rem;
 }
 .Heading {
-  display: block;
+   display: block;
+}
+
+/* --------------- ProductIndivitualCard.tsx --------------- */
+.ProductIndivitualCardMain {
+   font-family: Inter-SemiBold, "Helvetica Neue", Helvetica, Roboto, Arial,
+      sans-serif;
+   margin: 0;
+   width: 100%;
+   display: flex;
+   gap: 40px;
+   justify-content: center;
+   margin: 20px 0;
+}
+.ProductIndivitualCardImg {
+   width: 100%;
+   height: 100vh;
+   background-size: cover;
+   border-radius: 10px;
+}
+.ProductIndivitualCardImgDiv {
+   width: 40%;
+   height: 100vh;
+   background-size: cover;
+   border-radius: 10px;
+}
+.ProductIndivitualCardDetails {
+   width: 50%;
+   height: 100vh;
+
+   .ProductIndivitualCardName {
+      text-align: left;
+      font-size: 24px;
+      font-weight: 500;
+      color: #000000;
+   }
+   .IndivitualRatingAndReview {
+      margin-bottom: 20px;
+      .IndivitualRating {
+         background-color: #7f29bc;
+         padding: 2px;
+         border-radius: 5px;
+         color: white;
+         margin-right: 10px;
+      }
+   }
+   .ProductSize {
+      display: flex;
+      gap: 50px;
+      .ProductSizeCards {
+         margin-bottom: 20px;
+         display: flex;
+         gap: 10px;
+         .ProductSizeCard {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 40px;
+            height: 40px;
+            font-size: 20px;
+            border: 1px solid gray;
+         }
+         .ProductSizeCard:active {
+            background-color: #7f29bc;
+            color: #ffffff;
+         }
+      }
+   }
+   .ProductIndivitualCardprice {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      .ProductIndivitualCarddiscountedPrice {
+         font-size: 24px;
+         font-weight: 600;
+         color: #000000;
+      }
+      .ProductIndivitualCardoriginalPrice {
+         text-decoration: line-through;
+      }
+   }
+   .ProductIndivitualCardoriginalBtns {
+      display: flex;
+      gap: 20px;
+      margin-bottom: 20px;
+      justify-content: space-between;
+      .ProductIndivitualCardoriginalBtn {
+         width: 300px;
+         font-size: 20px;
+         color: #ffffff;
+         padding: 16px;
+         border-radius: 5px;
+         border: 0;
+         background-color: #7f29bc;
+      }
+   }
+   .ProductIndivitualCardDescription {
+      p {
+         text-align: left;
+         color: #000000;
+      }
+   }
+   .ProductSpecifications {
+      h3 {
+         margin-bottom: 15px;
+      }
+      .ProductSpecificationsDetails {
+         display: flex;
+         flex-direction: column;
+
+         .SpecificationsDetails {
+            display: flex;
+            gap: 30px;
+            p {
+               width: 150px;
+               text-align: left;
+            }
+         }
+      }
+   }
 }
