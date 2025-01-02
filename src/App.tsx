@@ -3,7 +3,7 @@ import NavBarShop from "./components/NavBarShop/NavBarShop";
 import Home from "./components/Home";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import CartSection from "./components/CartSection/CartSection";
-import ProductIndivitualCard from "./components/ProductShop/ProductIndivitualCard";
+import ProductIndivitualCard from "./components/ProductShop/ProductIndividualCard";
 
 const App = () => {
   return (

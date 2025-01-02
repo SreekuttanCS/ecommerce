@@ -3,7 +3,7 @@ import { clothingProducts } from "../../product/clothingProducts";
 import { fitnessEquipment } from "../../product/fitnessProducts";
 import ProductCategory from "./ProductCategory";
 import "./ProductShop.module.css";
-import ProductIndivitualCard from "./ProductIndivitualCard";
+import ProductIndivitualCard from "./ProductIndividualCard";
 
 const ProductShop = () => {
   return (
